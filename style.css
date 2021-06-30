@@ -1,0 +1,186 @@
+body{
+	margin: 0;/*внешние отступы*/
+}
+.menu{
+	text-align: center;/*текст в центре*/
+	position: fixed;/*чтобы зафиксировать*/
+	top: 0;/*положение сверху*/
+	width: 100%;/*ширина*/
+	background-color: white;/*цвет фона*/
+	opacity: 0.8;/*прозрачность*/
+}
+.menu a{
+	text-decoration: none;/*декорирование текста*/
+	color: black;/*цвет текста*/
+	display: inline-block;/*представление текста как блока*/
+	width: 100px;/*ширина*/
+	padding: 20px 40px;/*внутриние отступы*/
+}
+.menu a:hover{
+	background-color: #ccc;/*цвет фона*/
+}
+.header{
+	text-align: center;/*текст в центре*/
+	color: white;/*цвет текста*/
+	padding: 200px 0;/*внутренние отступы*/
+	background-image: url(img/polygons.png);/*фон картинка*/
+	background-position: top center;/*положение фона*/
+	background-attachment: fixed;/*фиксация фона на месте*/
+	background-size: cover;/*размер фона*/
+}
+.header p{
+	margin: 45px 0;/*внешние отступы*/
+}
+.header a{
+	padding: 12px 24px;/*внутренние отступы*/
+	background-color: #fff;/*цвет фона*/
+	border-radius: 10px;/*закругление углов*/
+	text-decoration: none;/*декорирование текста*/
+	color: black;/*цвет текста*/
+}
+.about{
+	max-width: 1200px;/*максимальная ширина*/
+	margin: 0 auto;/*внешние отступы*/
+	padding: 40px 0;/*внутренние отступы*/
+	text-align: justify;/*чтобы текст оптикал картинку*/
+}
+.about h2{
+	text-align: center;/*текст в центре*/
+}
+.about img{
+	width: 400px;/*ширина*/
+	float: right;/*выравнивания картинки в правую сторону*/
+	margin: 30px;/*внешние отступы*/
+	margin-top: 0;/*внешние отступ сверху*/
+}
+.team{
+	text-align: center;/*текст в центре*/
+}
+.member{
+	display: inline-block;/*представление текста как блока*/
+	width: 20%;/*ширина*/
+	min-width: 250px;/*минимальная ширина*/
+	vertical-align: top;/*выравнивания по вертикали*/
+	margin: 20px 30px;/*внешние отступы*/
+	text-align: left;/*текст влево*/
+	padding: 20px;/*внутренние отступы*/
+	box-shadow: 0 2px 5px grey;/*тень*/
+	box-sizing: border-box;/*ширина включает в себя внутренние отступы*/
+}
+.member img{
+	width: 100%;/*ширина*/
+}
+.member h3{
+	font-weight: 400;/*толщина текста*/
+	font-size: 24px;/*размер текста*/
+}
+.member .position{
+	opacity: 0.6;/*прозрачность*/
+}
+.member a{
+	display: inline-block;/*представление текста как блока*/
+	width: 100%;/*ширина*/
+	background-color: #055b73;/*цвет фона*/
+	border-radius: 10px;/*закругление углов*/
+	text-decoration: none;/*декорирование текста*/
+	color: white;/*цвет текста*/
+	padding: 14px 0;/*внутренние отступы*/
+	text-align: center;/*текст в центре*/
+}
+.prices{
+	background-color: #616161;/*цвет фона*/
+	text-align: center;/*текст в центре*/
+	padding: 50px 0;/*внутренние отступы*/
+
+}
+.prices p,.prices h2{
+	color: white;/*цвет текста*/
+}
+.tariff{
+	display: inline-block;/*представление текста как блока*/
+	width: 30%;/*ширина*/
+	min-width: 200px;/*минимальная ширина*/
+	margin: 10px;/*внешние отступы*/
+	vertical-align: middle;/*выравнивания по вертикали*/
+	background-color: white;/*цвет фона*/
+	color: black;/*цвет текста*/
+	padding: 0;/*внутренние отступы*/
+}
+.prices .price{
+	color: black;/*цвет текста*/
+	font-weight: bold;/*ширина текста*/
+	font-size: 24px;/*размер текста*/
+}
+.prices .period{
+	color: black;/*цвет текста*/
+	opacity: 0.4;/*прозрачность*/
+}
+.tariff li{
+	list-style: none;/*убрать точки у списка*/
+	border-bottom: 1px solid #ddd;/*рамка снизу*/
+	padding: 16px 0;/*внутренние отступы*/
+}
+.tariff-name{
+	color: white;/*цвет текста*/
+	background-color: black;/*цвет фона*/
+	font-size: 24px;/*размер текста*/
+	padding: 32px 0;/*внутренние отступы*/
+}
+.tariff li:last-child{
+	background-color: #f1f1f1;/*цвет фона*/
+	padding: 24px 0;/*внутренние отступы*/
+}
+ .tariff a{
+ 	background-color: black;/*цвет фона*/
+ 	padding: 12px 24px;/*внутренние отступы*/
+ 	color: white;/*цвет текста*/
+ 	text-decoration: none;/*декорирование текста*/
+ 	border-radius: 10px;/*закругление углов*/
+ }
+ .tariff a:hover{
+ 	background-color: white;/*цвет фона*/
+ 	color: black;/*цвет текста*/
+ }
+ .tariff .best{
+ 	background-color: #055b73;/*цвет фона*/
+ 	padding: 48px 0;/*внутренние отступы*/
+ }
+ .contact{
+ 	background-color: #f1f1f1;/*цвет фона*/
+ 	text-align: center;/*текст слева*/
+ 	padding: 40px 0;/*внутренние отступы*/
+
+ }
+ .contact-info{
+ 	text-align: left;/*текст слева*/
+ 	padding-left: 30px;/*внутренние отступы слева*/
+ 	margin-left: 5%;/*внешние отступы*/
+ 	background-size: 18px 18px;/*размер фона*/
+ 	background-repeat: no-repeat;/**/
+ 	background-position: left center;/*цвет фона*/
+ }
+ .contact-address{
+ 	background-image: url(img/address.png);/*цвет фона*/
+ }
+ .contact-phone{
+ 	background-image: url(img/phone.png);/*цвет фона*/
+ }
+.contact-mail{
+	background-image: url(img/mail.png);/*цвет фона*/
+}
+.contact input{
+	padding: 8px ;/*внутренние отступы*/
+	width: 90%;/*ширина*/
+}
+.contact button{
+	background-color: black;/*цвет фона*/
+	color: white;/*цвет текста*/
+	padding: 10px 16px;/*\внутренние отступы*/
+	border: none;/*123*/
+	border-radius: 10px;/*закругление углов*/
+	outline: none;/*123*/
+}
+.footer{
+	background-color: black;/*цвет фона*/
+	color: white;/*цвет текста*/
+}
